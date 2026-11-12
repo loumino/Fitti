@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FitLog – Training</title>
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="FitLog – dein persönlicher Trainingsplaner und Trainingslog">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="FitLog">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <main id="view"></main>
+  </div>
+  <div id="timerbar"></div>
+  <nav id="nav" aria-label="Hauptnavigation"></nav>
+  <div id="modal-root"></div>
+  <div id="toast" role="status"></div>
+  <noscript><p style="padding:20px;color:#fff">Bitte aktiviere JavaScript, damit FitLog funktioniert.</p></noscript>
+  <datalist id="sugg"></datalist>
+  <script src="storage.js"></script>
+  <script src="mobility.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
